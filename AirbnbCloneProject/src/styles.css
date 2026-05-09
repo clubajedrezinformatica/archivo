@@ -1,0 +1,152 @@
+/* GENERAL SETTINGS */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR COMPONENT STYLES */
+
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo{
+    max-width: 100px;
+}
+
+/* HERO COMPONENT STYLES */
+
+section{
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo{
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header{
+    margin-bottom: 16px;
+}
+
+.hero--text{
+    margin-top: 0;
+}
+
+/* CARD COMPONENT STYLES */
+.card{
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+}
+
+.cards--list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card--image{
+    width: 175px;
+    height: 235px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card--reviews{
+    display: flex;
+    align-items: center;
+}
+
+.card--reviews__star{
+    width: 14px;
+    height: 14px;
+    border-radius: 0.5px;
+    margin-right: 4px;
+}
+.card--reviews__punctuation{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-right: 4px;
+}
+.card--reviews__counter{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+.card--reviews__ellipse{
+    width: 2px;
+    height: 2px;
+    background: #918E9B;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.card--reviews__country{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+.card--title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card--price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-top: auto;
+}
+.card--person{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+.card--badge{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}

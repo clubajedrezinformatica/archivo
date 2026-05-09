@@ -1,0 +1,203 @@
+/* GENERAL SETTINGS  */
+
+*{
+    background-color: rgb(117, 108, 108);
+}
+.app{
+    width: 65%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    background-color: rgb(117, 108, 108);
+}
+
+.card{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(36, 30, 30);
+}
+
+/* INFO COMPONENT STYLES */
+
+.info{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(36, 30, 30);
+
+}
+.info-container{
+    background-color: rgb(37, 34, 34);
+    color: rgb(223, 217, 217);
+    width: 20rem;
+    margin-left: 270px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+}
+.container--image{
+    width: 318px;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.container--title{
+    background-color: rgb(37, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container--subtitle{
+    background-color: rgb(37, 34, 34);
+    color: rgb(131, 122, 122);
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container--website{
+    background-color: rgb(37, 34, 34);
+    color: rgb(173, 155, 155);
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container--buttons{
+    background-color: rgb(37, 34, 34);
+    
+}
+.container--buttons__1{
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+.container--buttons__1 > strong{
+    background-color: white;
+}
+.container--buttons__2{
+    background-color: #0072B1;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 12px;
+    color: white;
+}
+.container--buttons__1 > i{
+    margin-right: 5px;
+}
+.container--buttons__2 > i{
+    margin-right: 5px;
+}
+
+/* ABOUT COMPONENT STYLES */
+.about-container{
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(37, 34, 34);
+    width: 318px;
+    height: auto;
+    margin-left: 270px;
+    margin-bottom: 0px;
+}
+.about--title{
+    background-color: rgb(37, 34, 34);
+    color: rgb(223, 217, 217);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about--text{
+    background-color: rgb(37, 34, 34);
+    color: rgb(223, 217, 217);
+    font-size: 14;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+/* INTERESTS COMPONENT STYLES */
+
+.interests-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(37, 34, 34);
+    width: 318px;
+    height: auto;
+    margin-left: 270px;
+}
+.interests--title{
+    background-color: rgb(37, 34, 34);
+    color: rgb(223, 217, 217);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.interests--text{
+    background-color: rgb(37, 34, 34);
+    color: rgb(223, 217, 217);
+    font-size: 14;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+/* FOOTER COMPONENT STYLES */
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(36, 30, 30);
+}
+.container--sociallinks{
+    display: flex;
+    background-color: black;
+    width: 20rem;
+    margin-left: 270px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.container--sociallinks > i{
+    display: inline-block;    
+    height: 30px;
+    width: 30px;
+    margin: 0 10px 10px 0;
+    margin-left: 30px;
+    margin-top: 6px;
+    text-align: center;
+    line-height: 40px;
+    color:black;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 800;
+    transition: all 0.5s ease; 
+}
+
+
